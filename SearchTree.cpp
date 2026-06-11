@@ -55,3 +55,11 @@ public:
             parent->rightchild = newNode;
         }
     }
+
+     void inorder(Node *ptr)
+    {
+        if (ROOT == NULL)
+        {
+            cout << "Tree is empty" << endl;
+            return;
+        }
