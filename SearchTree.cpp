@@ -25,4 +25,8 @@ public:
     {
         ROOT = NULL; //initially set ROOT to null
     }
-    
+
+    //insert a node in the binary search tree
+    void insert(string element)
+    {
+        Node *newNode = new Node(element, NULL, NULL);
